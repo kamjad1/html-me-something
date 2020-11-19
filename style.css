@@ -1,36 +1,42 @@
 body {
+    color: black;
     background-color: silver;
+    font-size: 150%;
 }
 
-h1  {
-    color:steelblue;
-    margin-bottom: 1cm;
-    font-family: cursive;
-    
+header {
+    color: steelblue;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
- h2  {
-    color:black;
+
+#open {   
+    color: red;
+     padding: 40;
+    text-align: left;
+}
+ 
+ h2 {
+    color:white;
+    margin-bottom: 0cm;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+}
+
+ h3  {
+    color:steelblue;
     margin-bottom: 1cm;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 28px;
-    
-}
-h3  {
-    color:steelblue;
-    margin-bottom: 1cm;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 28px;
-    
-}
+ }
+
 h4 {
     color:black;
     margin-bottom: 1cm;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 28px;
-    
+    font-size: 28px;    
 }
-
-
+ 
 p {
     padding: 0vmax;
     font-size: 14px;
@@ -46,11 +52,12 @@ footer {
 
  img {
     border: 2px whitesmoke;
-    padding: 20x;
     margin: auto;
-    
- } 
- 
+    border-style: double;
+    padding :1px 0px 2px 0px;
+    display: block;
+}
+
 .states-life {
     background-color: silver;
     color: black;
